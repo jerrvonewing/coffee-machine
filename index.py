@@ -1,4 +1,10 @@
 # Prompt user by asking “​What would you like? (espresso/latte/cappuccino):”​
+def getDrink():
+    drink = input("1.\tespresso\n2.\tlatte\n3.\tcappuccino\nWhat would you like to drink today: ")
+    return drink
+
+drinkType = getDrink()
+print(drinkType)
 # Check user input to decide what to do next
 # The prompt should show every time action has completed
 
